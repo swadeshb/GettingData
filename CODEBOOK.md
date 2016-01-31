@@ -83,17 +83,17 @@ The following files are available for the train and test data. Their description
 10. Writes data into a file ./UCIHARDataset/ucihardataset_identifier_avg_tidy_data.txt with row.names=FALSE
 
 
-Final tidy data looks like this
+**Final tidy data looks like this**
 
- subjectId       activityLabel tBodyAcc-mean()-X tBodyAcc-mean()-Y  .... ......  .....   ......
-      (int)              (fctr)             (dbl)             (dbl)
+ > subjectId       activityLabel tBodyAcc-mean()-X tBodyAcc-mean()-Y  .... ......  .....   ......
+ >   (int)              (fctr)             (dbl)             (dbl)
       
-1         1              LAYING         0.2215982      -0.040513953
-2         1             SITTING         0.2612376      -0.001308288
-3         1            STANDING         0.2789176      -0.016137590
-4         1             WALKING         0.2773308      -0.017383819
-5         1  WALKING_DOWNSTAIRS         0.2891883      -0.009918505
-6         1    WALKING_UPSTAIRS         0.2554617      -0.023953149
+ >   1         1              LAYING         0.2215982      -0.040513953
+ >   2         1             SITTING         0.2612376      -0.001308288
+ >   3         1            STANDING         0.2789176      -0.016137590
+ >   4         1             WALKING         0.2773308      -0.017383819
+ >   5         1  WALKING_DOWNSTAIRS         0.2891883      -0.009918505
+ >   6         1    WALKING_UPSTAIRS         0.2554617      -0.023953149
 
 
 #Structure of tidy_data
