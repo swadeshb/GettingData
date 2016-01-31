@@ -17,18 +17,17 @@ This R script does the following
 4. Appropriately labels the data set with descriptive variable names.
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-To get the tidy data set with the average of each variable for each activity and each subject do following
+#To get the tidy data set with the average of each variable for each activity and each subject do following
 
 1. Download the data from the below url
     https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
-2. Unzip the downloaded file in your working directory
-3. The unzip creates a directory UCIHARDataset
-4. Download the run_analysis.R from the git to your working directory, not inside UCIHARDataset
-5. The run_analysis.R assumes that all files are in ./UCIHARDataset
-6. The run_analysis.R assumes that data.table and dplyr package is already installed. If its not installed, install using install.packages command. Example:
+2. Unzip the downloaded file in your working directory and it creates a directory UCIHARDataset
+3. Download the run_analysis.R from the git to your working directory, not inside UCIHARDataset
+4. The run_analysis.R assumes that all files are in ./UCIHARDataset
+5. The run_analysis.R assumes that data.table and dplyr package is already installed. If its not installed, install using install.packages command. Example:
          install.packages("data.table")
          install.packages("dplyr")
-7. Run run_analysus.R using below command
+6. Run run_analysus.R using below command
         source("run_analysis.R")
-8. The run_analysis.R script creates the following tidy data file set 
+7. The run_analysis.R script creates the following tidy data file set 
     ../UCIHARDataset/identifier_avg_tidy_data.txt
