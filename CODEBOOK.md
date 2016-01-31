@@ -87,7 +87,7 @@ The following files are available for the train and test data. Their description
         Source: local data frame [6 x 68]
         Groups: subjectId [1]
 
-            subjectId      activityLabel tBodyAcc-mean()-X tBodyAcc-mean()-Y
+            subjectId      activityLabel tBodyAcc-mean()-X tBodyAcc-mean()-Y .....  .....  (truncated, not all columns are shown here)
             (int)             (fctr)             (dbl)             (dbl)
             1             LAYING         0.2215982      -0.040513953
             1            SITTING         0.2612376      -0.001308288
