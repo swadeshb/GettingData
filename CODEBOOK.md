@@ -75,8 +75,8 @@ The following files are available for the train and test data. Their description
 6. Creates one single data merging test and train data
 
 7. Find mean() or std() column positions from features and create data sets with only those columns keeping activity and subject.
-    
-8  Replace activity id by activity label form the activity_lables.txt
+
+8. Replace activity id by activity label form the activity_lables.txt
 
 9. Create tidy_data set with the average of each variable for each activity and each subject
 
