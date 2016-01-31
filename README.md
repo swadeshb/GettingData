@@ -1,5 +1,5 @@
 #Getting and Cleaning Data Course Project - Readme
-**Program: run_analysis.R
+**Program: run_analysis.R**
 
 The purpose of this project is to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis. 
 
